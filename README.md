@@ -1,18 +1,33 @@
-# Breast Cancer Logistic Regression App
+# 🎓 Breast Cancer Logistic Regression Streamlit App
 
-Interactive Streamlit app demonstrating logistic regression on the Breast Cancer dataset.
+This is an interactive **Streamlit app** built to demonstrate **logistic regression** on the **Breast Cancer Wisconsin dataset**. It predicts the probability of a tumor being **malignant** based on user-selected features.
 
-## Features
-- Dataset preview (first 10 rows)
-- Model evaluation metrics: accuracy, precision, recall, F1-score
-- Confusion matrix with TP, FP, FN, TN
-- Feature coefficients and intercept
-- Interactive S-curve for probability prediction
+## 🚀 Live Demo
 
-## Requirements
-- Python 3.10+
-- streamlit
-- numpy
-- pandas
-- matplotlib
-- scikit-learn
+[Open the app](https://breast-cancer-logistic-regression-wqeznareva59awg6nhxbtn.streamlit.app/)
+
+---
+
+## 💻 Features
+
+- Dataset preview (first 10 rows shown for convenience)  
+- Model evaluation metrics: **accuracy, precision, recall, F1-score**  
+- Confusion matrix with **TP, FP, FN, TN** visualized  
+- Feature coefficients and intercept display  
+- **Interactive S-curve:** select a feature and input a value to see predicted probability  
+- Scatter plot of actual data points  
+
+---
+
+## 🧠 How It Works
+
+- Logistic Regression predicts **probability of malignancy** for each sample.  
+- Probability is a number between **0 and 1**, showing the model's confidence.  
+- Class prediction converts probability to 0 (benign) or 1 (malignant) using a threshold (0.5).  
+- The **S-curve** visually shows how probability changes with the selected feature.  
+
+---
+
+## 🛠️ Run Locally
+
+
