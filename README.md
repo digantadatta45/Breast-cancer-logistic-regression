@@ -30,6 +30,6 @@ This is an interactive **Streamlit app** built to demonstrate **logistic regress
 
 ## 🛠️ Run Locally
 
-Download or clone this repository
-Install dependencies: pip install -r requirements.txt
-Run the app: streamlit run app.py
+1. Download or clone this repository
+2. Install dependencies: pip install -r requirements.txt
+3. Run the app: streamlit run app.py
